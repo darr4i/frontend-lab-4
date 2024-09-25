@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Рабійчук, Дар'я Олександрівна, HTML, Київ">
+    <meta name="description" content="Особиста сторінка Рабійчук Дар'ї Олександрівни, студентки НТУУ КПІ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рабійчук Д.О. - Лабораторна робота №1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 id="header">Рабійчук Дар'я Олександрівна</h2>
+    <p id="birthdate">Дата народження: 9 грудня 2004 року, м. Київ</p>
+    <p id="education">Освіта: 233 СШ Оболонського району, НТУУ "КПІ"</p>
+
+    <h3>Мої хобі:</h3>
+    <ul class="hobbies">
+        <li id="hobby1">Дизайн</li>
+        <li id="hobby2">Йога</li>
+        <li id="hobby3">Шопінг</li>
+        <li id="hobby4">Книжки</li>
+    </ul>
+
+    <h3>Улюблені фільми:</h3>
+    <ol class="films">
+        <li>"Щасливий день смерті", 2017</li>
+        <li>"Мінлива хмарність, часом фрикадельки", 2009</li>
+        <li>"Ходячий замок", 2004</li>
+    </ol>
+
+    <h3 id="city-title">Моє улюблене місто: Львів</h3>
+    <p id="city-desc">Львів - це місто, яке зачаровує своєю атмосферою. Вузькі вулички, старовинні будівлі, кав'ярні на кожному кроці. Місто завжди сповнене життя та культурних заходів. Архітектура Львова є справжнім шедевром, поєднанням різних епох та стилів. Особливо вражає Ринкова площа та львівські парки, де можна відпочити душею.</p>
+
+    <div class="city-photo">
+        <img id="cityPhoto" src="https://vgorode.ua/img/article/3872/6_main-v1577255306.jpg" alt="Львів, Ринкова площа" width="500">
+    </div>
+    
+    <div class="buttons">
+        <button class="button" onclick="addImg()">Додати зображення</button>
+        <button class="button" onclick="resizeImg('increase')">Збільшити</button>
+        <button class="button" onclick="resizeImg('decrease')">Зменшити</button>
+        <button class="button" onclick="deleteImg()">Видалити зображення</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
